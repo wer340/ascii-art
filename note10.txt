@@ -1,0 +1,69 @@
+1----
+so for working with collaborators and repository changes
+git fetch  git pull
+2---
+two head 
+a head master that forwaard with acreate commit and show  last commit
+a head that origin/master  that last commit origin stop 
+view the  remote branch  our local repository knows about  ▶git branch -r [referense ]  remote branch
+remote tracking branch a bookmark that holds the spot the most recently known state of the master branch on origin
+refs head  example  book    and demonstae with bookmark
+3--
+git status  
+your branch is a head of origin/main by 1 commit    this sentanse   orgin head a commit latter than local ref_head 
+you can checkout these remote branch pointer ▶git checkout origin/master  ✅i will  deatched  dont panic✅
+when push local change   origin pointer commnucated  and update own 
+4---
+four total branch in repo  i will copy that url on main selected  and ▶git clone url
+when ▶git status   ✅on main branch  what is other branches? ▶ git branch    no see another branch  but  github was another branch altough this
+  actually not bad at all    but doesa not mean all my workspace at once
+when type  ▶git branch -r    we see all branch are in github
+git own  automaticlly  connected  ref master with origin/maaster    and  check commit  head of this commit how many?
+how make another branch  and connected to other branch on github?
+we see  ▶git branch -r    and  with ▶git switch name_branch ✅✅   origin/name_branch 📗git connected this branch to remote origin/name_branch
+note  git search name_branch  in remon branch name  if this name existed  swhitch on branch Otherwise show fetal error this branch not existed
+old way doing this  replace ▶git switch name_branch =  ▶git checkout --track origin/name_branch
+very useful command ▶git switch name_branch_remote  when collige request check this branch and you say i have not this 
+branch with super easy command  ▶git switch name_brach  can have that branch
+5---
+you clone  and work on project  some commit  and diverge between origin remote with ref head  behind  collabrator push 
+and change remote repo  teammate has pushed up change to the master branch but my  loacal repo doesnt know
+this is where the two command we are going to discuss fetching aand pulling or git fetch ,git pull
+🔼🔼up ward ✅✅📗workspace ▶(git add) staging(index) ▶(git commit) local repository ▶(git push)remote repository 
+so that down ward 🔽🔽🔽   remote repository ▶  (git fetch)local repository▶(git pull)work space
+git fetch  >> think of it as "please go and get the latest information from github but dont scew up my working directory"
+▶git fetch <remote> if we can specifically just fetch one branch  ▶git fetch <remote> <branch>
+if lost internet i would still have acces to all of the work as of this momment in time 
+6--
+execise
+create new file on github accunt with ascii art  
+when ▶git status   message on branch fantesy your branch is up date with origin/fantesy
+ ✅just mean im up to date with what my local repo knows not what it exactly is at this one moment in time 
+because it can change my repo is not constantly asking hey this or new stuff i do that i tell you  
+i waant to get the changes taht say my friend told me what i say bob head  told me Colt just aadded to movies branch 
+go fetch them ▶ git fetch remote branch then 🌿📗message  your branch is behind origin/fantesy
+git make a branch parallel with local branch and dont change current branch you can check with ▶git checkout origin/fantesy  
+ doing detach head !! using  fetch the latest information about some remote repository it just doesnt automaticly
+integrated changes into whatever your working on  
+7---
+git pull
+w ecan use to retrieve changes from a remote repoitory  but big deffrence is that poll will actually update our head branch
+it change working directory    fit pull =git fetch+git merge  
+ ▶git pull remote  branch   then origin/fantesy and  fantesy head exact same
+8--
+handle conflict  if pull what collabrator change smae thing
+pull can result merege conflict 
+some time get a fast forard merging so pretty smoth some time automaticlly some time conflict
+   ⛔⛔better before push up changes  first time pull down  that see changes
+for conflict  first time  to spisific file conflict  and add stage  then commit
+if push  on github  wouldnt be on github resolve conflict
+9--
+shorter syntax  
+im not going to pull some other branch onto the food branch 
+if you run fit pull without specifying a particular remote or branch to pull from 
+fit assume the following  remote will default to origin ▶git pull
+branch will default to whaatever tracking connection is configured for your current branch
+when ▶git switch movies     origin/movies        git automaticaly  git push   figure out that  is origin movies
+git fetch update remote tracking branch 
+⛔⛔⛔not recommend if you have uncommitted changes use git pull
+
