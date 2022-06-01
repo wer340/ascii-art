@@ -1,3 +1,17 @@
 https://www.asciiart.eu/
 
 https://github.com/Colt/remote-branches-demo
+
+▶get rid  crlf  warning 
+linux treat line break  term of  lf    windows treat  crlf
+for resolve this  problem  2 method 
+
+1-
+command git     ▶git config --global core.autocrlf true
+
+2-
+make a  file with ▶touch .gitattributes ✅ file       and write
+ ▶ cat >> .gitattributes file   *text *auto *.jpg binary *.png binary    then ctrl +d save     star  every✅
+
+
+▶git checkout-index --force --all    pull all fille working directory check this subject
