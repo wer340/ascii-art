@@ -1,0 +1,57 @@
+1----
+read me  mark down     ✔best practise
+github gist    alot of people dont use them 
+github pages  static web pages from repository
+2----
+ public repo  is accessible    it diascoverable 
+thats  still does not mean people can change the contents of repository ✅  that cant push to repository
+they haave to collabrative privieges or premission to do do that
+when private   who can see    who have been granted access  they have been added as collabrator
+different organization  or enterprise  level github  where  a private ✅repo visible to everyone within the organsion
+but we working with personal free account  so a private repo  ✅is only visible to me  the owner and people i specifically acces grant
+for  change repo   public  to private    setting    down page  danger zone   change visiblity
+
+3--- 
+setting collabrator
+add  username or emaail    and i ivite   if  you accept  request    add as collabrator    
+setting option its no longer   so  collabrator cant invite or delete or public or private repo
+4---
+two   account for collabrator     
+and collabrate   one user init   other user clone    pros aand cons of different approach for collaboration
+5---
+readme file is used to communicate important informaition about a repo includinf
+✔what the project does  api  web aapllicaation video gaame 
+✔how to run the project   dependency what necessury 
+✔why its noteworthy
+✔who maintains the project
+
+readme  file  in root of your project   githunb  will recognize it aand automaticly display it on the repo home page 
+✅✅it s important  first thing somebody look at when they come to your project
+ mark down is a concenient syntax to generate formatted text
+6---
+mark down is text to html conversion tool for web writer
+if  button raw mark down  you can see  code mark down           # heading h1   ## heading h2 ** bold ** *italic*  > block code
+🔵backticks🔵 character  for create code  `code `  ✅▶ ``` code ``` 📗 block of code if add js after tree backticks  ▶``` js  code ```  📗highlited (colored)
+link make  ▶[title](www.google.com)  🔶🔶make photo   ![minion](addres photo)
+mark down not spicfed  to github   you can use  a abunch of tools 
+extision for vscode
+and  site  https://markdown-it.github.io/  
+7----
+you not have to  add readme  your repo  it just is good practise 
+for exerice ▶touch readme.md    and   vscode open  type  #h  **dgffdgf**  for show this markdown code   open command Palette ▶✅(ctrl+shift+p) markdown:open preview
+8----
+github gist 
+very simple way to share code snippets if you familir with something called ✅pastebin its similar tool   it allows you  basicly copy some code into gist 
+and save then share with other people 
+go to gist.github.com       can chcklist on gist 
+quick and simple  create gist  name.md name.js or .. and can md file then add js or other type file  need  click + plus sign  secret gist or public gist    and post 
+people can discuss and post their error 
+9--
+ github pages
+you cant anything except static pages so that mean  no server side languges   python ruby node   purely html css java
+script  portfolio  documention   username.github.io/name_repo
+two  type  site    user site name.github.io   project site name.github.io/repo-name
+https://pages.github.com/
+10----
+setting > github paages box before  danger zone select branch for   page    an select folder  where it will find the index html file ✅root✔ or ✅docs folder  
+  then  create  index.html    on above   adrees show in box   note: every update page 20 minutes
