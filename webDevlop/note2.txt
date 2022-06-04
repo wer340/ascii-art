@@ -1,0 +1,38 @@
+1------
+http://pascalvangemert.nl/
+table>thead ,tbody,tfoot
+thead>th
+tbody >tr, td 
+style attribute in html in use table deprcated
+
+2-----
+https://www.cs.dartmouth.edu/~thc/
+cellSpacing attribute table tag depricated   css new
+3---
+make a cv  with star
+
+4---
+win + .  or   win +;     for use emoji in windos
+5---
+table  add emoji    and  attribute cell apacing
+and understand why html to affect  layout and complicated one
+6----
+https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input
+form tag >  laabel +input [aattribute type]
+type attrbute >  text submit date raange file 
+7-----
+textarea  cols rows  ✔✔
+form  attribute   action  mailto:hsee1372@gmail.com
+enctype attribute use  untill data  term of plain text/plain otherwise % replace space yt%%pl%
+ 
+8---
+return site   note test
+9--
+host website
+blue host   go dady    pay
+free  >  github> new repository /cv   > public[radio button]✔ and initialize this repository with a readme  [checkbox] ✔ make sure 
+then you see a readme file in repo     repo like aa folder in windos
+then upload button  >  chooase file for upload  > leave a naame for commit >commit directly to the maaster branch [raadio button]✔ then commit changes button click
+saetting> github pages section (page down) >toggle  side baar to master branch  then save
+naame.github.com/cv   this adress  your website   proably github server 1.5 h  for build this adress  it bussy
+

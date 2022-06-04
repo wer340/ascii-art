@@ -1,0 +1,66 @@
+casscade style sheet
+1----
+http://toastytech.com/evil/index.html
+why css?
+html tag  
+<font>
+<center>
+then attribute bgcolor
+then table and neasted table    
+flexible table
+long code
+problem to debug code  and confusing in code  aand mess up
+horrible problem
+then create mark up lang by name css
+2------------------
+https://www.seanhalpin.design/
+how to find bg-color  for site 
+search google  [change background color using css mdn ]
+https://colorhunt.co/
+pigment color package install in atom for  show color as well as
+https://developer.mozilla.org/en-US/docs/Web/CSS/color_value
+# [pound sign]
+4----
+install chrome extention  [Pesticide] for Chrome
+5----
+<style end closing tag
+replace style tag  in head tag  by the write attribute each one tag
+we undestand   that     browser  a little style term of defult for all of site
+google search [browser defult css]
+https://www.w3schools.com/cssref/css_default_values.asp
+hr tag >border style inset then search google> border style css mdn
+https://developer.mozilla.org/en-US/docs/Web/CSS/border-style
+6---
+<head>  >  <style> body{}    internal css
+external css   <link [relationship]rel="stylesheet" href=""> self lossing tag 
+css property  each feature of tag html  height border color  bg and etc
+7----
+css syntax      every lang have  own rule
+selector (who?) {(curly brace) property(what)  : value(how);}
+look your website  and  how many tag is your page 
+selector{rule;rule;rule;}   rule= property : value;
+best praactise    that rule sort of  alphabet 
+atom  warn  that best practise   sort of alphabet   first letter of property name a b c d etc
+alt+v toggle menu   package linter install 
+https://github.com/CSSLint/csslint/wiki/Rules
+all of property sort  of alphabet
+https://developer.mozilla.org/en-US/docs/Web/CSS/Reference
+8----
+emojipedia
+https://emojipedia.org/
+add class attribute to html lang tag for specify stylesheet each tag that is same   
+/*
+comment in css
+*/ 
+class in css   start by . (full stop) dot   .banon {} 
+for more specific  use  id tag    #name {}     id=identify 
+Priority of id  on high level  and over right every command css other
+id="one id"   class="cicular  img  font"    id cant have more one particilar element
+9----
+pseudo class  a little colon in front of them  : active  :hover
+https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-classes
+but when our elent are in this particular state 
+10----
+webpage go to the site
+11----
+

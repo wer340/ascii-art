@@ -1,0 +1,80 @@
+1-----
+frontend lib   
+responsive  mean respond  to  viewport   ✅adaptable website  bootstrap◀ drop ready style ✔
+https://www.codeply.com/   allow  libarary  for code    ✔codepen  ❌not allow
+https://getbootstrap.com/
+
+2-----
+install bootstrap your web site
+CDN  stand for  ✅Content ✅Delivery ✅Network    so instead of hosting your website just in a single location say over  you have  a whole bunch of point where that web site can be accessed
+if  include bootstrap file  and  other js (component) lib    that cause  this file ❌❌🔶✅not cashed by user because dont identify as a bootstrap
+3--
+wireframing pencil  opposite of this  mock up ▶pretty good screenshot  than  real  website
+inspired this site  then ▶photoshop or illustrator   create  photo realistic version   then  prototype from site
+https://www.awwwards.com/    good idea  for design  and structure
+https://ui-patterns.com/   problem component  slove and haandle by devloper
+https://dribbble.com/search/prototype-website  inspired  idea  ✅✅✅✅
+https://sneakpeekit.com/    download  pdf then print   and  design your page✔  
+https://balsamiq.cloud/  wirframe design place
+guide balsamiq  for  work
+hold ✅ R key   start rectangular  then from transform to your box  like ipad browser window img  etc
+hold ✅ Y key   start logo
+hold ✅ T key start caption text underneath img 
+ctrl+c , ctrl+v   copy paste   angel yu  along time  work this site  other option  share sketch with college online with chat
+4---
+<nav> element html   codeply   ✅ see icon  run in different device  phone tablet  laptop
+toggler ▶ for small size screen  3 line🌫 that say hamburger menu✔
+a create div that put everthing wanna collapce   then  icon brand  above botton or under  one  ✅can important and left side or right side ◀▶
+data-target   that  mention on id  element be hidden or display
+
+5---
+design startup site   title section   feature section carousel testimonial price plan section  call action (app android ios mac) section   footer section
+6---
+file clone
+7---
+added link  lib  your own skelton html
+when add link bootstrap lib   for  run  nav collapse need  to jquery (javascrip lib)✅
+in site https://getbootstrap.com/docs/4.3/getting-started/introduction/  version 4.3      ✅right side above 🔽
+
+8----
+grid system
+https://www.airbnb.co.uk/s/homes?refinement_paths%5B%5D=%2Fhomes&date_picker_type=flexible_dates&search_mode=flex_destinations_search&search_type=AUTOSUGGEST
+bootstrap site  doc▶layout▶grid
+div▶row     div▶col-2,3,      as you change your size viewport this percent stay   
+but wana  to viewport  remove  or revise col   use  col-[xs,sm,md,lg]-[1,11]   
+
+9---
+student have a problem with montserrat font -slove    font-family:" montserrat-thin ,black ,.."
+
+10----
+put  google-font link  and  grid for div
+11----
+<link rel="stylesheet" href="styles1.css">
+<link rel="stylesheet" href="styles2.css">
+Essentially both styles are being applied, but the one that's visible at the end is the one applied last.
+✅evenually
+▶<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" rel="stylesheet">
+▶<link rel="stylesheet" href="css/styles.css">
+This means that you first load the default bootstrap styles, then you can override some of those components with your own custom CSS.
+12--
+container element bootstrap
+head ove to doc▶layout▶overview section   ▶ first thing talk about  is container 
+ ✅containers are a basic building block for a lot of component✔ example▶ <div class="container"> <div class="row">
+because container allow you to horizantally center or to pad out◀▶ your content by simply using this container
+container-fluid  other type  that 100%percent width 
+13---
+doc▶ component▶ button✔
+btn-outline-light  transparency background  like glass
+button size  with class  btn-lg  btn-sm
+for  finding icon head over to https://fontawesome.com/
+first  script font awesome  attach to html
+comment for every lib add  in head tag   for dont missing around  with so many lib  its clear 
+font awesme   only  italic tag for  shortest way    span tag same  italic tag  <i> <span>
+14---
+caption  for every pece of css code
+notice  every section add a  name section + tag   best practise for put given name  ✅example  section title  title-img
+transform: rotate 
+15---
+challenge
+16---
+size   font awesome  with class  ✅ fa-4x    2x=1rem

@@ -1,0 +1,110 @@
+1----- 
+create folder   index.html  aand css
+2----
+favicon[favorite icon ] created on olden adays  for estimate how many user bookmark your site [IE5]
+ and know all browser on defult  put a favicon yoursite  
+ favicon.cc
+3----
+install pesticide for chrome (with hover) extention chrome then see all of box in site 
+hold ctrl key then hover elemnt  finaly your node show you under screen
+div stand for  content division tag
+divide your content into seprate container or boxes so that you can affect the layout of each box
+transplant  the asame box in box inspector develpop   
+double click on trasplant for each element override margin pad border
+4---
+consept css  is known as the box model
+wiewport the screen that you are viewing the site on
+border defult 3px size  border dont encroach defined width-box if you 300px if you increse border size to 50px your all width 50+300+50=400
+dive value in each direction box term of clockwise  border-size:top right bottom left
+pading for make space between border and content in your box
+padding  bigger your box
+ margin is buffer zone
+https://markusvogl.com/web1/interactive_box_model/css_box_demo.html
+<<<<margin (buffer zone) +border +[box>> paadding+content(bg-color)
+if set your width box 300px then added 10px padinng all around your box is 10+300+10=320px
+
+5----
+display property --> block inline inline-block none
+block property get whole space a line for own⛔⛔❌❌
+common block element  ❤❤❤❤❤❤ <p> <h1> <div> <ol> <ul> <li> <form>
+inline element just take up space for content sake of not accepet width rule  
+common inline element ❤❤❤❤ <span> <img> <a>
+in inline element you can not change width ❌❌⛔⛔
+inline-block property  compound from two type property [width✔+a line✔]
+none property  its remove or disappear element  we get ride from this element
+‼‼☢ property visibility:hidden  elemnt fade  but yours own postion still stay for the same element
+property visibility:hidden  orginal postion ✔✔   display:none  orginal postion❌❌
+6--
+go to site
+7---
+css positioning
+first thing determine large of box   ✔content✔  even though block box all aronund line but height box determine by content h1 h2  p  etc
+second thing  ✔order✔ of element  wich element in html file have written up or down an miiddle
+third thing childern✔ sit on parent 
+this consept simialr to z index axis that determined which element will be display on other one
+html default ‼ all element static position‼✔  flow html 
+we have 4 postion  ✔static ✔relative ✔absolute ✔fixed
+fourth  cordinate property   notice top:50px   side top 50 px margin  left:20px side left 
+8---
+absolute position  mean that you are adding a margin to its parent   side parent element ✔till own element(child)
+absolute position not effect on flow html ✔ you are aactually  taking element out of the flow of document and ✔its no longer✔ considered a part of th natural folw of doc
+fixed postion   athas mean  when user scroll web  this block fixed on screen dont move
+9----
+text-align
+this property works aas long as i got  inline block such as image or ❤❤full width block❤❤ element like h1 p which are 💛going from left edge to the right edge◀ ▶❤
+so what if width block widt=10%   so in this situion margin either of means for align element  by  ✅ margin:0 auto ✅  text-align : center   ‼‼ its  doesnt have a width set 
+auto  value for margin property center  both horizental and vertical    in this case  only need to horizental align 
+10----
+font-family property  two maajor family ▶▶   serif(little feet aat the edge)  and sans-serif      little feet called serif    💖💖deafult most browser serif💖💖
+  other typeface ▶▶ monospace  each chracter use same width   ❇suitable type code❇
+cursive(handWrite)  and fantasy(avatar)  two family that you ❌never to use  reason ▶ low readly and not look great
+web safe font  are  these font  operting every system  same   maximm chance of getting renderd correctly
+https://www.cssfontstack.com/
+font-family: name font(case1),(case2),arial,non-sarif   from spicific font to  common font  if not render
+if we ensure user are looking exactly design , designing by us  ▶▶▶ font embeding
+https://fonts.google.com/   added with plus   all font  ✅✅▶ then  take up a link   
+11----retun  to site
+
+12----
+lorem ipsum compelte content mumbo jumbo text  
+https://loremipsum.io/ 
+http://lorem-ipsum.perbang.dk/    spcieyfing
+icon flat for site
+https://www.flaticon.com/ ✅✅✅✅✔
+https://giphy.com/  animate pic for web
+
+13---
+font-size problem   
+first  choise  ◀static size(16px)▶  that  with change font-size in apperance browser  site s text not change
+h1 font size defult =16px    if  you change font-size in body  your h1 element inherit this property rather then siz own font big or small
+dynamic size 🔶 % 🔶 and 🔶 em 🔶    ❤inherit ❤ size  from body(font-size)  exmple ✔✔body{font-size:200%(32px)} h1{font-size:200%}  size h1= 200*200=400%  rather root (16px)✅✅
+em  same  %  your behavior     em from create phonatic pronasition letter M   old day  every width M  was a unit em but modern day every 16px  is em   but body{font-size:2em(32px)} h1{font-size:2em}  size h1= 2*2=44em  rather root (16px)✅✅
+in order to  easy debug   and reduce error  rem cretated in css3  rem=root em    that size ❤❤not inherit from parent❤❤
+
+14-15-16---
+chalenge   change color  ,  font weight  , line height
+https://developer.mozilla.org/en-US/docs/Web/CSS/color
+https://developer.mozilla.org/en-US/docs/Web/CSS/font-weight
+https://developer.mozilla.org/en-US/docs/Web/CSS/line-height
+17------
+slove  chalenge  previous course
+line-height  the text   make space   both bottom and top 
+ It's commonly used to set the distance between lines of text   dont have any unit for specify
+18----
+when we preform a width for image in term of %   this percent  by parent element ✅  <div> <image  width=25%>  > 25% div width
+float property     float: left  one of the most commonly property wrapping around  a certian element  🌎🌫
+property cleat anti float     clear : right(right margin clear  not wrap anything)     prevent  from put thing around direct  
+‼❌use float property   dont use posion property  for wrap  around ✅
+19----
+pdf  challenge
+hr css  >>  🔶border-style🔶: .6rem none none none      0❌   none✔
+
+20---
+slove  challenge    
+https://css3buttongenerator.com/
+21---
+https://www.frontendmentor.io/
+
+22---
+finish✅
+

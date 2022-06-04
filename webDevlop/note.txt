@@ -1,0 +1,44 @@
+Html=hypertext markup language
+https://techcrunch.com/
+https://codepen.io/
+https://www.gutenberg.org/ebooks/1661
+https://devdocs.io/   follow
+2----
+<br><hr>  self-closing-tag
+<hr   >> html tag
+<hr  size="" >>attribute
+<!-->  <-->  comment tag
+3----
+https://web.archive.org/
+https://www.cs.dartmouth.edu/~thc/  Thomas H. Cormen
+https://www.cs.cornell.edu/home/kleinber/    Jon Kleinberg
+https://www-cs-faculty.stanford.edu/~knuth/   Donald E. Knuth
+
+4-------
+boilerplate  
+ahtml type  then enter   emmet complete your code
+https://github.com/nwinkler/atom-keyboard-shortcuts  shortcut key atom
+https://docs.emmet.io/cheat-sheet/  
+atom>file>right click >copy full path >paste on adrresbar browser
+<meta charset="utf-8">
+https://www.fileformat.info/info/charset/UTF-8/list.htm
+https://unicode-table.com/en/
+https://www.joelonsoftware.com/2003/10/08/the-absolute-minimum-every-software-developer-absolutely-positively-must-know-about-unicode-and-character-sets-no-excuses/
+<meta > tag  attribute description seo
+https://www.w3schools.com/tags/tag_meta.asp
+5-----
+setting   ctrl + ,
+indent code tree  > oackages >atom-beautify   ctrl+alt +b  
+[(bold) replace stong tag >(italic) replace em tag]  [(logical state)] > bold tag(physical state)
+6---
+bullet list
+ul>li*3  then press tab key 
+ol>li
+
+7-----
+img tag self closing tag
+https://photobucket.com/   create account upload image then use link img
+https://crop-circle.imageonline.co/ 
+8--------
+anchoar tab
+https://www.thewikigame.com/
