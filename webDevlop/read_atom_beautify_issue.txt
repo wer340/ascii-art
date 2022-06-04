@@ -1,0 +1,11 @@
+Cool it worked thanks. Nikki1993,
+so what i did is sudo npm cache clean
+and then deleted all folders from ~/.atom/.apm
+and there was no directory named .npm so i created it and the
+executed the command sudo apm install script
+and this time output is Installing script to /home/nobodyu/.atom/packages ✓
+
+
+npm cache clean --force 
+npm cache verify
+https://twitter.com/yu_angela
