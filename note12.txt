@@ -1,0 +1,83 @@
+﻿1----
+tenzer flow   ai
+thousand collabrator  they dont grant every collabrator  full permissiond just push up
+2---
+centralized workflove  diagram is simple
+aka simple way for workflow all the work is done on a a single branch whatever that branch
+we dont have to worry about pushing up aa whole bunch of deffernt branches and pulling them down and  merging defferent branches
+✅we just work on one branch
+same repo and github   and 3 deffrent repo in local machine
+clone repo  each 3 collige
+spend  time  alot for  resolve merge     every first push github   next one  have to pull then push  that mean  second user your commit is after first user
+  no one can work on anything without disturbing the main code base  how do exprement
+✅there no way  to realy collaborate on anything unless you push in complete code up to master
+every happend problem  have to commit  broken code on master  till who resolve them
+if can managable ✅if  be tiny team   not do anything expermental   no recommand it
+3----
+exerice
+decentraalize workflow
+✅✅✅✅who  make repo   be owner of github repo   invite ,....
+only branch this work flow    git stash  before pull 
+i want to go get the new stuff from steve my change not ready for commit  but i try and pull   right now   doesnt action  let me  do it 
+✅✅commit or stash   for pull request   🌎not recommand
+4--
+feaature branches   dont pulluting the master branch 
+whether its something tiny or some massive new feature or a redesign or a bug fix  all develop done on seprate branch
+my master branch should not contain any broken code unless somebody mess up
+branch  come   you dont  screw up   less time spent resolving conflict and merging code  
+5----
+branch name  navbar    ✅name  featue   you can  push broken code   your branch 
+your friend  slanc  message  hey i dont know this problem ✅✅super simple command  ▶git switch branch
+6---
+merging in feature branch
+1-merge at will without any sort od discussion with teamate just do it whenever you want   ▶pull  to local then merge 
+2- send an mail or chat message or something to your teamm to discuss if the change should be mergef in  
+3-pull request in ✅github and abitbucket
+7----
+ a lot of company protect main branh you actually have pull request   this way is more transparent more longer  
+pull request
+you want to make sure taht whatever you are merging in or whoever is doing the merging has some disscusion around it 
+ not native git   bulit github and bitbucket 
+we push it up to github instead of just merging that directly into master or main 
+alot of companies actually the main branch is protected 
+✅✅i show you do that  you ❌cant just mege stuff you actually have to amake a pull request 
+so that there an opportunity to discuss and accept or reject 
+you make pull request  you then have to wait for it to be approved and hopefully merged or sommething
+when feature finsh wana branch merge ▶▶▶go to github  on branch  green button  compare & pull request   or click pull request 
+ then  obtain branch and  merge branch   then description for this merge  >> im finish this feature  and suitable for return to main branch
+then ▶▶click pull request   after this action wait your boss  that comment for you   your buss if accept  click merge pull request 
+8---
+fast-forward merge pr
+if not protect main branch pr(pull request ) can used for discussion about merge your branch
+althogh you can merge it  but  you dicussion about 
+description pr   your my comment mention @colt   please take look
+above window  pr   select branch and merged branch  and show  you message side button that 
+merge branch is fast forward or automatically  ..
+with close pull request   close pr   
+after pr  sucussed  delete branch  locally branch  delete  git branch -D name
+9----
+if merge  have conflict  first can resolve  then merege  every collabrator  can   if main not protect
+merge into local maschine  then push 
+owner  reolve conflict in local 
+first fetch then git switch   branch  then git merge main(test merge with main )
+  then  when  resolved conflict  back to main  and git merge --no-ff branch 
+this -no-ff means git  a commit create for merge point  if fast forward run into  pointer go  last commit no craete merge  poin 
+github advice add this option when back history  understand this point is merege point
+my boss pull down  and  merge conflict term of locally
+10----
+branch protection rule   prevent delete branch
+branch name pattern
+for organization    front/navbar
+and  add  then  who merge  should  pass this protection  means  approve one people owner or high level  till merge your branch
+11----
+foking and cloning    open source project have alot of contrbuter
+owner cant add all contributer as  direct con  instead foking clone workflow anybody enable
+github allow create personal copy of other people  repo calls fork   > make changes >make pr(pull request)
+forking is not for git  like pr its github feature and other host services
+for private repo need acces fork
+when click fork button  this repo copy on accunt repo   with same name
+12-----
+when clone  can change and commit and broken code
+but dont push up yout commit  but in fork  you able change and push
+
+  
