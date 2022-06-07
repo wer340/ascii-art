@@ -79,5 +79,14 @@ when click fork button  this repo copy on accunt repo   with same name
 12-----
 when clone  can change and commit and broken code
 but dont push up yout commit  but in fork  you able change and push
-
+13---
+this fork clone worflow  good reson   beacause  it allows a project maintainer to aaccept contributions
+ from developer all around the world without having to add them 
+when fork a open source project  then change it  github suggest message athat you commit ahead of original repo
+you pr(pull request) like collabrator  
+notice   in big open suorce project  you should add remote to original repo for up stream   that pull new update 
+dont permission push  but allow pull 
+14-----
+exercise  ▶git remote add upstream(name favorite)  url original repo 
+    for update local repo that fork from original repo 
   
