@@ -88,5 +88,5 @@ notice   in big open suorce project  you should add remote to original repo for 
 dont permission push  but allow pull 
 14-----
 exercise  ▶git remote add upstream(name favorite)  url original repo 
-    for update local repo that fork from original repo 🔵
+    for update local repo that fork from original repo 
   
