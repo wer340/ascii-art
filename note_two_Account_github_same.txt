@@ -1,3 +1,14 @@
 dsome weired for this issue
 note this issue
 📗
+# Default github account: username
+Host github.com
+   HostName github.com
+   IdentityFile ~/.ssh/id_rsa
+   IdentitiesOnly yes
+   
+# Other github account: second username 
+Host github-second username
+   HostName github.com
+   IdentityFile ~/.ssh/favorate_name_key
+   IdentitiesOnly yes
