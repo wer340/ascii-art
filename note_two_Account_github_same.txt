@@ -12,3 +12,7 @@ Host github-second username
    HostName github.com
    IdentityFile ~/.ssh/favorate_name_key
    IdentitiesOnly yes
+git remote add origin git@github.com:camel93/test-camel-couple.git
+
+git remote add origin https://github-camel93/camel93/test-camel-couple.git
+git remote add origin git@github-camel93:camel93/test-camel-couple.git
