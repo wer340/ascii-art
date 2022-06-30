@@ -1,0 +1,40 @@
+﻿1----------
+testimonial
+every sectiob explicit  for user  celer diffrent
+✅sublime-style-column-selection    one cursou  for many line for write aa same thing  in atom
+in vscode   Alt +ctrl +arrow  one cursor    and    shift +alt +arrow copy line vscode
+
+2-------
+carousel
+https://getbootstrap.com/docs/5.2/components/carousel/#options
+for speed carousel data-interval="1000"  data-pause="hover"    data-ride=false   only  icon carousel move  not autoplay
+calss="slide" aour slide should animate
+
+adding  control   dont need  data-ride  data-pause   data-interval
+✅href target  for carousel for work  ✔same name
+
+carousel inner    contain  content of the carousel item so that slide will be changed 
+first class ✅active class 
+
+attribute  role="button" ancer tag change  equal button
+✅area hidden  basicly means that when a visualy impaired person comes across your website they usualy have something xalled a screen reader which goes  
+through the web site read what is one there so they can hear what we can see  more accessible friendly 
+sr-only   screen only
+3---
+https://bootsnipp.com/
+card-deck >card >  card-header    card-body
+for adaptable  resposive  >using grid markup   for card-deck   >   row   > col-lg-4>card
+
+4----
+advanced advance designer z-index
+natural order
+<div y>1
+<div b>2
+<div r>3
+3 on 2 aand 2 on 1
+z-index:1 -1 0 10      if both -1   by natural order
+
+5---
+media query  
+mobile friendy affect in rank site oct 2016  mobile more use till desktop
+https://search.google.com/test/mobile-friendly
