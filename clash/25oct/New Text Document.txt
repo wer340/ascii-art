@@ -1,0 +1,9 @@
+https://proxies.bihai.cf/clash/config
+http://wxshi.top:9090/clash/config
+
+
+
+https://github.com/Fndroid/clash_for_windows_pkg/releases/tag/0.20.6
+
+
+https://github.com/Kr328/ClashForAndroid/releases/tag/v2.5.11
